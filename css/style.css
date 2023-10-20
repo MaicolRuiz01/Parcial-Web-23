@@ -64,12 +64,7 @@ h3{
 
 
 
-/* Estilo para el aside */
-aside {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
+
 
 /* Estilo para el título */
 aside h2 {
@@ -97,6 +92,6 @@ aside a {
 
 /* Estilo para los enlaces al pasar el mouse sobre ellos */
 aside a:hover {
-    color: #D31024; /* Cambia el color del texto al pasar el mouse */
-    border-bottom-color: #D31024; /* Cambia el color del borde inferior al pasar el mouse */
+    color: #6490f5; /* Cambia el color del texto al pasar el mouse */
+    
 }

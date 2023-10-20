@@ -25,8 +25,13 @@
     width: 60px;
     height: 60px;
     border-radius: 50%; /* Esto hace que la imagen sea redonda */
-    float: left; /* Para alinear la imagen a la izquierda */
+    float: left; 
     margin-top: 6px;
+}
+.noticiaimg{
+    width: 600px;
+    height: 400px;
+    float: left; 
 }
 
 h1{
@@ -50,4 +55,48 @@ h3{
     display: flex;
     align-items: center;
     
+}
+.pNoticia{
+    margin-left: 10px;
+}
+
+
+
+
+
+/* Estilo para el aside */
+aside {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el título */
+aside h2 {
+    margin: 0;
+}
+
+/* Estilo para la lista desordenada */
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de lista */
+aside li {
+    margin: 5px 0;
+}
+
+/* Estilo para los enlaces */
+aside a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+/* Estilo para los enlaces al pasar el mouse sobre ellos */
+aside a:hover {
+    color: #D31024; /* Cambia el color del texto al pasar el mouse */
+    border-bottom-color: #D31024; /* Cambia el color del borde inferior al pasar el mouse */
 }

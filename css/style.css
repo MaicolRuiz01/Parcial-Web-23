@@ -1,0 +1,21 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+ header{
+    max-width: 1200px;
+    min-height: 120px;
+ }
+ main{
+    width: 75%;
+ }
+ aside{
+    width: 25%;
+    min-width: 200px;
+    min-height: 400px;
+ }
+ footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80px;
+
+ }

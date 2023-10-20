@@ -35,3 +35,13 @@ h1{
    font-size: 2.5;
    
 }
+
+h3{
+    font-size: 1.5em bold;
+}
+
+.contactos{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
